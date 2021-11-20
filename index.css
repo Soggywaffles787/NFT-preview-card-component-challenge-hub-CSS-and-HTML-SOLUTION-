@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 1440px;
+  background-color: hsl(217, 54%, 11%);
+  font-family: "Outfit", sans-serif;
+  color: white;
+}
+
+h3 {
+  color: white;
+}
+div.main {
+  background-color: hsl(217, 54%, 11%);
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+div.card {
+  padding: 1.5rem;
+  border-radius: 15px;
+  width: 375px;
+  background-color: hsl(216, 50%, 16%);
+}
+img.ether {
+  width: 320px;
+  height: 320px;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  border-radius: 15px;
+}
+img.avatar {
+  border: white 2px solid;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin: 1rem;
+}
+span.dopay {
+  line-height: 86px;
+}
+h3 {
+  padding-bottom: 1.5rem;
+}
+
+div.child p:nth-child(2),
+div.child p:first-child {
+  padding-bottom: 1.3rem;
+}
+
+hr {
+  border-color: hsl(215, 32%, 27%);
+}
+span {
+  float: right;
+}
+p.only svg {
+  margin-right: 9px;
+}
